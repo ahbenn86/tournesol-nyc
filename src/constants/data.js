@@ -1,58 +1,43 @@
 import images from './images';
 
-const wines = [
+const weekday = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    dish: 'Traditional homemade Couscous',
+    price: '$33',
+    day: 'Monday',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    dish: 'Coq au vin de Gaillac',
+    price: '$29',
+    day: 'Tuesday',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    dish: 'Cassoulet de Renee',
+    price: '$34',
+    day: 'Wednesday',
   },
   {
-    title: 'Rhino Pale Ale',
+    dish: 'Braised pork shank a la moutarde',
     price: '$31',
-    tags: 'CA | 750 ml',
+    day: 'Thursday',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    dish: 'Loup de mer a la Provencale',
+    price: '$33',
+    day: 'Friday',
   },
 ];
 
-const cocktails = [
+const weekend = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    dish: 'Lamb shank ratatouille',
+    price: '$32',
+    day: 'Saturday',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    dish: "Bouillabaisse de Baud",
+    price: '$33',
+    day: 'Sunday',
   },
 ];
 
@@ -79,4 +64,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { weekday, weekend, awards };

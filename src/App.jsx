@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import AboutUs from './container/AboutUS/AboutUs'
 import Header from './container/Header/Header'
+import SpecialMenu from './container/Menu/SpecialMenu'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Header/>
       <AboutUs/>
+      <SpecialMenu/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import G from '../assets/G.png';
 // import gallery04 from '../assets/gallery04.png';
 import knife from '../assets/knife.png';
 // import logo from '../assets/logo.png';
-// import menu from '../assets/menu.png';
+import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/francois-dang-ngoc.png';
@@ -34,7 +34,7 @@ export default {
   // gallery04,
   knife,
   // logo,
-  // menu,
+  menu,
   overlaybg,
   spoon,
   welcome,
