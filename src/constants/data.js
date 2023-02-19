@@ -43,24 +43,24 @@ const weekend = [
 
 const awards = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'New York Times',
+    subtitle: 'Like a flower poking through the gritty concrete near the mouth of the queens-midtown tunnel, Tournesol, is a spray of brightness on a field of gray.',
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.award02,
+    title: 'CitySearch',
+    subtitle: 'Tournesol brings a left-bank flair just this side of the East River.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'The Village Voice',
+    subtitle: 'A fascinating French wine list is just one of the lures that might draw you, fish-like, to this neighborhood bistro.',
+  },
+  {
+    imgUrl: images.award04,
+    title: 'Time Out New York',
+    subtitle: 'Locals can get tables again at this terrific and affordable bistro.',
   },
 ];
 

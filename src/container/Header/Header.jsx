@@ -9,9 +9,8 @@ const Header = () => (
       <SubHeading title="Goûtez notre saveur" />
       <h1 className="app__header-h1">Delicious French Cuisine</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe eligendi
-        id cum rem autem modi ipsum officia consequatur nihil numquam pariatur
-        officiis deserunt ea amet dicta sequi architecto, fuga rerum.
+      Come and experience the exquisite flavors of French cuisine in one of the most unique cities of New York.
+      Our menu is sure to tantalize your taste buds and leave you wanting more.  
       </p>
       <button type="button" className="custom__button">Explore Menu</button>
     </div>
