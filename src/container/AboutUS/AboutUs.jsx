@@ -25,9 +25,6 @@ function AboutUs() {
             new bright light within the city. A small family owned restaurant
             celebrating over 18 years in the community.
           </p>
-          <button type="button" className="custom__button">
-            Know More
-          </button>
         </div>
       </div>
     </div>

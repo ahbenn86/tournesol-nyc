@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'cormorant_uprightbold';
+    src: url('/src/assets/fonts/cormorant/cormorantupright-bold-webfont.woff2') format('woff2'),
+         url('cormorantupright-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_uprightlight';
+    src: url('/src/assets/fonts/cormorant/cormorantupright-light-webfont.woff2') format('woff2'),
+         url('/src/assets/fonts/cormorant/cormorantupright-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_uprightmedium';
+    src: url('/src/assets/fonts/cormorant/cormorantupright-medium-webfont.woff2') format('woff2'),
+         url('/src/assets/fonts/cormorant/cormorantupright-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_uprightregular';
+    src: url('/src/assets/fonts/cormorant/cormorantupright-regular-webfont.woff2') format('woff2'),
+         url('/src/assets/fonts/cormorant/cormorantupright-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorant_uprightsemibold';
+    src: url('/src/assets/fonts/cormorant/cormorantupright-semibold-webfont.woff2') format('woff2'),
+         url('/src/assets/fonts/cormorant/cormorantupright-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

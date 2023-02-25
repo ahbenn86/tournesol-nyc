@@ -2,6 +2,7 @@ import React from "react";
 import SubHeading from "/src/components/SubHeading/SubHeading";
 import MenuItem from "/src/components/MenuItem/MenuItem";
 import { images, data } from "../../constants";
+import { Link } from "react-router-dom";
 import "./SpecialMenu.css";
 
 function SpecialMenu() {
@@ -39,9 +40,11 @@ function SpecialMenu() {
         </div>
       </div>
       <div style={{ marginTop: "15px" }}>
+        <Link to="/full-menu">
         <button type="button" className="custom__button">
           View More
         </button>
+        </Link>
       </div>
     </div>
   );

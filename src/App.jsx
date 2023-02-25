@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import AboutUs from './container/AboutUS/AboutUs'
@@ -14,6 +15,11 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
+      <Helmet>
+        <title>Tournesol | French Restaurant | Long Island City, New York</title>
+        <meta name='description' content='Come experience the best of French cuisine in Long Island City! Our restaurant offers a unique atmosphere and delicious dishes that will arouse your taste buds.'/>
+        <meta name='keywords' content='Restaurant, French, Cuisine'/>
+      </Helmet>
       <AboutUs/>
       <SpecialMenu/>
       <Laurels/>

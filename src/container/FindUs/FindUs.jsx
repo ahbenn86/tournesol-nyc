@@ -23,7 +23,6 @@ function FindUs() {
              <p className="p__opensans">Sunday: 11:00 am - 3:30 pm</p>   
              <p className="p__opensans">5:00 pm - 10:00 pm</p>   
             </div>
-            <button className='custom__button' style={{marginTop: '2rem'}}>Visit Us</button>
         </div>
 
         <div className="app__wrapper_img">

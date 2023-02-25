@@ -25,7 +25,9 @@ function Gallery() {
             <SubHeading title="Instagram"/>
             <h1 className="headtext__cormorant">Photo Gallery</h1>
             <p className="p__opensans" style={{color: '#AAA', marginTop: '2rem'}}>Be sure to follow us on instagram where we're always posting beautiful pictures of our delicious meals.</p>
+            <a href='https://www.instagram.com/tournesolnyc/'>
             <button type='button' className='custom__button'>View More</button>
+            </a>
         </div>
 
         <div className="app__gallery-images">
