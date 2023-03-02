@@ -4,12 +4,22 @@ import FullMenuItem from "/src/components/FullMenuItem/FullMenuItem";
 import data from "/src/constants/data";
 import './FullMenu.css'
 import { Helmet } from 'react-helmet';
+import { ImHome3 } from 'react-icons/im';
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function FullMenu() {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
     return (
         
         <div className="app__specialMenu flex__center section__padding" id="full-menu">
-          <img src="/src/assets/menu-decor.png" alt="menu logo" className='full-menu-img' />
+          <img src="/src/assets/menu-decor.svg" alt="menu logo" className='full-menu-img' />
+          <Link to="/">
+          <ImHome3 style={{color: 'var(--color-golden)', width: '2rem', height: '2rem', marginBottom: '1rem'}}/>
+          </Link>
           <div className="app__specialMenu-title">
             <SubHeading title="menu entier" />
             <h1 className="headtext__cormorant">Full Menu</h1>
@@ -59,6 +69,9 @@ function FullMenu() {
                 ))}
               </div>
             </div>
+            <Link to="/">
+            <button className='custom__button flex__center full-menu-home-btn'>Back to Home</button>
+            </Link>
           </div>
         </div>
       );

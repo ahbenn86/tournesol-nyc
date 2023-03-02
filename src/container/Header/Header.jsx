@@ -19,7 +19,6 @@ const Header = () => (
     </div>
     <div className="app__wrapper_img">
         <img src={images.welcome} alt="header image" />
-        {/* <small style={{ color: "grey" }} className="small-credit">Photo credit: Francois Dang Ngoc -Google</small> */}
     </div>
   </div>
 );

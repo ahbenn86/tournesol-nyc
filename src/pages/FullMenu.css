@@ -22,5 +22,7 @@
 }
 
 @media screen and (max-width: 650px){
-
+ .full-menu-img {
+    display: none;
+ }
 }

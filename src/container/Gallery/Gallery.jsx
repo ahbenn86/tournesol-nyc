@@ -4,7 +4,7 @@ import { images } from "../../constants";
 import {BsInstagram, BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs';
 import './Gallery.css'
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04 ]
+const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.ambiance ]
 
 function Gallery() {
     const scrollRef = React.useRef(null);
@@ -20,7 +20,7 @@ function Gallery() {
     }
 
   return (
-    <div className='app__gallery flex__center'>
+    <div className='app__gallery flex__center' id='photos'>
         <div className="app__gallery-content">
             <SubHeading title="Instagram"/>
             <h1 className="headtext__cormorant">Photo Gallery</h1>

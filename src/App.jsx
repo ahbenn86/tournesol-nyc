@@ -8,9 +8,15 @@ import Gallery from './container/Gallery/Gallery'
 import Header from './container/Header/Header'
 import Laurels from './container/Laurels/Laurels'
 import SpecialMenu from './container/Menu/SpecialMenu'
+import { useEffect } from 'react'
 
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <div className="App">
       <Navbar/>

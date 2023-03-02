@@ -14,6 +14,7 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award04 from '../assets/award04.png';
 import tournesol from '/src/assets/tournesol-brand-logo.svg';
+import ambiance from '/src/assets/ambiance.png';
 
 export default {
   tournesol,
@@ -31,5 +32,6 @@ export default {
   award01,
   award02,
   award03,
-  award04
+  award04,
+  ambiance,
 };

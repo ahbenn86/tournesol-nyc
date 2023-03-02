@@ -1,0 +1,13 @@
+.credits-container {
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits {
+    color: var(--color-golden);
+    margin-top: 1rem;
+}

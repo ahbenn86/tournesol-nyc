@@ -4,6 +4,7 @@ import FooterOverlay from '/src/components/Footer/FooterOverlay'
 import Newsletter from '/src/components/Footer/Newsletter'
 import {images} from '../../constants'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
@@ -23,9 +24,13 @@ function Footer() {
             <p className="p__opensans">Tournesol is proud to call Long Island City home for over 19yrs. We ❤️ our community!</p>
             <img src={images.spoon} alt="spoon" className='spoon__image' style={{marginTop: 15}} />
             <div className="app__footer-links_icons">
+                <Link to="https://www.facebook.com/people/Tournesol/100063533653352/">
                 <FiFacebook/>
-                <FiTwitter/>
+                </Link>
+                {/* <FiTwitter/> */}
+                <Link to="https://www.instagram.com/tournesolnyc/?hl=en">
                 <FiInstagram/>
+                </Link>
             </div>
            </div>
            <div className="app__footer-links_work">
@@ -43,6 +48,7 @@ function Footer() {
         </div>
         <div className="footer__copyright">
            <p className="p__opensans">2023 Tournesol. All rights reserved. Website development by <a href="www.unique-you.us" style={{color: 'red'}}>Unique-You</a>.</p> 
+           <Link to="/credits"><small style={{color: 'white'}}>Image Credits</small></Link>
         </div>
     </div>
   )
