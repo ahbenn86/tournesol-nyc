@@ -47,7 +47,7 @@ function Footer() {
            </div>
         </div>
         <div className="footer__copyright">
-           <p className="p__opensans">2023 Tournesol. All rights reserved. Website development by <a href="www.unique-you.us" style={{color: 'red'}}>Unique-You</a>.</p> 
+           <p className="p__opensans">2023 Tournesol. All rights reserved. Website development by <a href="http://unique-you.us" style={{color: 'red'}}>Unique-You</a>.</p> 
            <Link to="/credits"><small style={{color: 'white'}}>Image Credits</small></Link>
         </div>
     </div>
