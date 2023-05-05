@@ -52,19 +52,19 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home">Home</a>
+                <a href="#home" onClick={() => setToggleMenu(false)}>Home</a>
               </li>
               <li className="p__opensans">
-                <a href="#menu">Menu</a>
+                <a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a>
               </li>
               <li className="p__opensans">
-                <a href="#press">Press</a>
+                <a href="#press" onClick={() => setToggleMenu(false)}>Press</a>
               </li>
               <li className="p__opensans">
-                <a href="#photos">Photos</a>
+                <a href="#photos" onClick={() => setToggleMenu(false)}>Photos</a>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a>
               </li>
               <li className="p__opensans">
                 <a href="https://www.trycaviar.com/store/tournesol-queens-134094/">Order Online</a>
