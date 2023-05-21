@@ -4,7 +4,7 @@
 
 <!-- ![Insert Image Link Here]() -->
 
-<a href="https://angelounique-you-us-tournesol.mdbgo.io/">Tournesol</a>
+<a href="https://angelounique-you-us-tournesol.mdbgo.io/" target="_blank">Tournesol</a>
 
 <br/>
 
